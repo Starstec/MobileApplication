@@ -1,0 +1,303 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Soil Detection Detail"
+        android:textColor="@color/green"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvresultsoil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Soil Detection Detail"
+                android:visibility="gone" />
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/soilCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/green_primary"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutSoil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/imageContainer"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/ivresultsoil"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                    <LinearLayout
+                        android:id="@+id/linearSoilType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="Soil type : " />
+
+                        <TextView
+                            android:id="@+id/soilType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textSize="16sp"
+                            android:textColor="@color/white"
+                            android:text="-" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:text="Date :" />
+
+                        <TextView
+                            android:id="@+id/date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/poppins"
+                            android:text="-" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearTemperature"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="Temperature : " />
+
+                        <TextView
+                            android:id="@+id/temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:text="No Data" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearMoisture"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="Moisture : " />
+
+                        <TextView
+                            android:id="@+id/moisture"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:text="No Data" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearSoilCondition"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:text="Soil Condition : " />
+
+                        <TextView
+                            android:id="@+id/soilCondition"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
+                            android:textSize="16sp"
+                            android:text="No Data" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearSoilDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:text="Soil detail :" />
+
+                        <TextView
+                            android:id="@+id/soilDetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:justificationMode="inter_word"
+                            android:text="hebat"
+                            android:textAlignment="textStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearPlantRecommendation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="@color/white"
+                            android:text="Plant Recommendation :" />
+
+                        <TextView
+                            android:id="@+id/plantRecommendation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/white"
+                            android:justificationMode="inter_word"
+                            android:text="-"
+                            android:textAlignment="textStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnsave"
+                            android:layout_width="200dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginRight="32dp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="@string/Save"
+                            app:cornerRadius="20dp" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btndetectsoildetail"
+                            android:layout_width="200dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginRight="32dp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="@string/DetectSoilDetail"
+                            app:cornerRadius="20dp" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnexporttopdf"
+                            android:layout_width="200dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginRight="32dp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="@string/SavetoPDF"
+                            app:cornerRadius="20dp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

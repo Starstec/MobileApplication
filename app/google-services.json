@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "646058238608",
+    "project_id": "soilit",
+    "storage_bucket": "soilit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646058238608:android:d93e50f195d4a1ca9fae15",
+        "android_client_info": {
+          "package_name": "com.github.user.soilitouraplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646058238608-ptjjhgl5udh0dd622ru90qh03biqmavf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.user.soilitouraplication",
+            "certificate_hash": "aa9758b8e86b18b09f8a7e1dd4f65360a05dca3e"
+          }
+        },
+        {
+          "client_id": "646058238608-vridd29tv5m7br0dicedr0b3ld8luolr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.user.soilitouraplication",
+            "certificate_hash": "846d7ce113a5df5280447b427949a0490f40d57e"
+          }
+        },
+        {
+          "client_id": "646058238608-iq1sj0v6jqb4jr1ficvcicbuffa5rpus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNWsPbhUJNnKZSLVnKUWbxO_eU5lnxhZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646058238608-1gmrtsolbdn44if6b16jdik84lvj8dpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

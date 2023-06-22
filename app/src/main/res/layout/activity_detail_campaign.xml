@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fullcampaign.FullCampaign">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/FullCampaign"
+        android:textColor="@color/green_primary"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvcampaigndate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/daterealtime"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tvtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/campaignfeed"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="16sp"
+                android:textColor="@color/green"/>
+            
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:id="@+id/ivcampaign"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/earthday"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/tvcampaigndescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/campaigndescription"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textAlignment="textStart"
+                android:justificationMode="inter_word" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
