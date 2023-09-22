@@ -2,88 +2,87 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-feature android:name="android.hardware.camera" />
-
-
-    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
 
     <application
-        android:name=".di.SoilitApplication"
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SoilitOurAplication"
+        android:theme="@style/Theme.Starstec"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name=".ui.activity.ble.DeviceActivity"-->
+<!--            android:exported="false" />-->
         <activity
-            android:name=".ui.changepassword.ChangePassword"
+            android:name=".ui.activity.ble.ScanActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.splash.SplashActivity"
+            android:name=".ui.activity.meditation.MusicMeditationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.pss.PerceivedStressScale"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".ui.activity.offlinedetection.BLEConnectActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".ui.activity.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.signup.RegisterActivity"
+            android:name=".ui.activity.flaslightactivity.FlaslightActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name=".ui.activity.offlinedetection.OfflineDetection"
             android:exported="false" />
         <activity
-            android:name=".ui.fullcampaign.DetailCampaign"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity android:name=".ui.faq.FaqActivity" />
+            android:name=".ui.activity.consultation.ConsultationActivity"
+            android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
-            android:exported="true">
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:name=".ui.activity.realtimedetection.RealtimeStressDetectionActivity"
+            android:exported="false" />
         <activity
-            android:name=".ui.detection.DetailDetectionActivity"
-            android:exported="true">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:name=".ui.activity.laststressdetect.StressDetectActivity"
+            android:exported="false" />
         <activity
-            android:name=".ui.fullcampaign.FullCampaign"
-            android:exported="true">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:name=".ui.activity.meditation.MeditationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.detection.ClassifierActivity"
-            android:exported="true">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:name=".ui.activity.login.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.history.DetailHistory"
-            android:exported="true">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:name=".ui.activity.ppgactivity.PpgSensorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.edaactivity.EdaSensorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"

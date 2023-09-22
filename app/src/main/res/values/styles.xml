@@ -1,75 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="RoundedImageView" parent="">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSizeTopLeft">20dp</item>
-        <item name="cornerSizeTopRight">20dp</item>
-        <item name="cornerSizeBottomLeft">20dp</item>
-        <item name="cornerSizeBottomRight">20dp</item>
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/poppins</item>
     </style>
-
-    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="boxStrokeColor">@color/green_primary</item>
-        <item name="boxStrokeWidth">2dp</item>
-        <item name="boxCornerRadiusBottomEnd">12dp</item>
-        <item name="boxCornerRadiusBottomStart">12dp</item>
-        <item name="boxCornerRadiusTopEnd">12dp</item>
-        <item name="boxCornerRadiusTopStart">12dp</item>
-        <item name="boxStrokeWidthFocused">3dp</item>
-        <item name="android:textColorHint">@color/green_primary</item>
-        <item name="android:paddingBottom">12dp</item>
-    </style>
-
-    <style name="h1">
-        <item name="android:textSize">32sp</item>
-        <item name="android:textColor">@color/green_primary</item>
-        <item name="android:fontFamily">@font/poppins_bold</item>
-    </style>
-
-    <style name="h2">
-        <item name="android:textSize">24sp</item>
-        <item name="android:textColor">@color/green_primary</item>
-        <item name="android:fontFamily">@font/poppins_bold</item>
-    </style>
-
-    <style name="h3">
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/green_primary</item>
-        <item name="android:fontFamily">@font/poppins_semibold</item>
-    </style>
-
-    <style name="h4">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/green_primary</item>
-        <item name="android:fontFamily">@font/poppins_semibold</item>
-    </style>
-
-    <style name="body">
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/green_primary</item>
-        <item name="android:fontFamily">@font/dm_sans_regular</item>
-    </style>
-
-    <style name="body2">
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/green_primary</item>
-        <item name="android:fontFamily">@font/dm_sans_regular</item>
-    </style>
-
-    <style name="body3">
-        <item name="android:textSize">10sp</item>
-        <item name="android:textColor">@color/green_primary</item>
-        <item name="android:fontFamily">@font/dm_sans_regular</item>
-    </style>
-
-    <style name="textEditCustom">
-        <item name="android:padding">15dp</item>
-        <item name="android:textColorHint">@color/green_primary</item>
-        <item name="android:textColor">@color/component</item>
-        <item name="android:textSize">16sp</item>
-    </style>
-
-
 
 </resources>

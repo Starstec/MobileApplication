@@ -1,129 +1,49 @@
 <resources>
-    <string name="app_name">Soilit</string>
+    <string name="app_name">Starstec</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="Home">Home</string>
-    <string name="Hiuser">Hi User !</string>
-    <string name="RealtimeSoilDetection">Realtime Soil Detection</string>
-    <string name="HumusSoil">Humus Soil</string>
-    <string name="daterealtime">15/05/2023</string>
-    <string name="Campaign">Campaign</string>
-    <string name="FAQ">FAQ</string>
-    <string name="SearchHistory">Search history</string>
-    <string name="History">History</string>
-    <string name="Humidity">Moisture : </string>
-    <string name="Temperature">Temperature : </string>
-    <string name="SoilCondition">Soil Condition :</string>
-    <string name="click">Click for more detail</string>
-    <string name="seeall">See all</string>
-    <string name="Latestsoil">Latest Soil Detection</string>
-    <string name="campaignfeed">Earth Day Celebration in Philippines</string>
+    <string name="stresstest">You haven\'t checked your \nstress level yet!</string>
+    <string name="ppgtext">Don’t know how to check the Blood Preasure using Starstec?</string>
+    <string name="watchppg">Watch help video now!</string>
+    <string name="edatext">Don’t know how to check the Electrodermal Activity using Starstec?</string>
+    <string name="healthy">Healthy Life, Stay Productive,\nImprove Your Gaming !</string>
+    <string name="meditation">Come on, start your journey towards peace and balance with meditation! By allocating a little time each day for meditation, you will discover tranquility within yourself and overcome the overwhelming stress</string>
+    <string name="meditasimindfulness">Teknik meditasi ini berasal dari ajaran Buddha dan memang paling populer.\nSaat melakukan ini, kamu perlu memerhatikan pikiran yang melewati...</string>
+    <string name="stressdetect">curious how we interpret hrv and scr to detect stress ?</string>
+    <string name="send_success">Berhasil terkirim</string>
+    <string name="send_error">Gagal terkirim</string>
+    <string name="eda">Do you want to express your emotions more deeply and understand yourself better? Try using an EDA sensor! Come on, start your journey of self-discovery with an EDA sensor!</string>
+    <string name="ppg">Want to take control of your health? Try using a PPG Sensor. Get a PPG Sensor now and embark on a journey towards a healthier and happier life!</string>
+    <string name="consultation">Level up your gaming experience with our consultation with expert !</string>
 
-    <!-- Soil Detection -->
-    <string name="toggle_camera">Switch Camera</string>
-    <string name="detect_object">Detect Object</string>
-    <string name="image_result_descr">Image Result</string>
-    <string name="Detecting">Detecting …</string>
-    <string name="SoilDetail">Soil Details</string>
-    <string name="PlantRecomendation">Plant Recomendation</string>
-    <string name="NameSoil">Name : Humus Soil</string>
-    <string name="FullCampaign"><![CDATA[< Campaign]]></string>
-    <string name="Loader">Loader</string>
-    <string name="faqicon"><![CDATA[>]]></string>
-    <string name="Save">Save</string>
-    <string name="DetectSoilDetail">Detect Soil Detail</string>
-    <string name="campaigndescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut vestibulum orci. Nunc ultrices orci a enim rhoncus, ut tempus nibh ultrices. Nullam fringilla pharetra metus in euismod. Quisque ipsum ipsum, efficitur in volutpat eu, elementum a sapien. Aliquam nec nisi cursus, dignissim lacus nec, accumsan odio. Integer eu lorem bibendum dui blandit vulputate. Nunc nec neque purus. Nulla feugiat convallis ligula aliquet tincidunt.</string>
 
-    <string name="login_text">Welcome Back !</string>
-    <string name="login_desc">Sign in to Continue</string>
-    <string name="email_hint">Email</string>
-    <string name="username_hint">Username</string>
-    <string name="password_hint">Password</string>
-    <string name="confirm_password_hint">Confirm Password</string>
-    <string name="forget_password">Forget Password ?</string>
-    <string name="login">Login</string>
-    <string name="or_sign_in_with">Or Sign In with</string>
-    <string name="google">Google</string>
-    <string name="to_signup_text">Don\'t have account?</string>
-    <string name="to_signin_text">Already have account?</string>
-    <string name="signup_now">Sign up now!</string>
-    <string name="login_now"> Login now!</string>
-
-    <string name="register_text">Hello !</string>
-    <string name="Signup_text_2">SignUp and start start Exploring</string>
-    <string name="SignUp">Sign Up</string>
-
-    <string name="logout">Logout</string>
-    <string name="change_password">Change Password</string>
-    <string name="language">Language</string>
-    <string name="settings">Settings</string>
-    <string name="confirm_logout">Are you sure want to logout?</string>
-    <string name="cancel">Cancel</string>
-    <string name="yes">Yes</string>
-    <string name="back_button">back button</string>
-    <string name="current_password_hint">Current Password</string>
-    <string name="new_password_hint">New Password</string>
-    <string name="user_profile">User Profile</string>
-    <string name="name_hint">Name</string>
-    <string name="edit">Edit</string>
-    <string name="edit_profile">Edit Profile</string>
-    <string name="Hello">Hello</string>
-    <string name="faq">FAQ</string>
-    <string name="cancel_change_password_desc">Cancel changing password?</string>
-    <string name="no">No</string>
-    <string name="change_password_success">Change password success!</string>
-    <string name="ok">Ok</string>
-    <string name="change_password_error">Change password error!</string>
-<!--    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>-->
-
-    <string name="image_description">Description</string>
-    <string name="splash_desc">Sustainable Farming</string>
-    <string name="title_activity_faq">FaqActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="lorem_ipsum">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
-        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
-        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
-        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    <string name="output_hint">
+        Please place your finger on the device\'s camera, covering the flash as well. After
+        10 seconds, you can export the results through the menu.
+        \n\nThis utility works by measuring the amount of red it sees through the camera, and
+        attempting to detect the fluctuations.
+        \nIt works better in a darkened room, and when the pressure on the camera is constant.
+        \nIf there are multiple cameras on your device, make sure that your finger covers the entire
+        field of view in the small viewfinder.
+        \nOnce the measurement is complete, it can be exported or repeated through the menu.
     </string>
-    <string name="SavetoPDF">Export to PDF</string>
-    <string name="delete_history_desc">Are you sure want to delete this history?</string>
-    <string name="delete_history_success">History Deleted!</string>
-    <string name="delete_history_failed">Delete History Failed!</string>
-
+    <string name="output_header_template">Heart rate on %s</string>
+    <string name="output_detected_peaks_header">Detected Peaks:</string>
+    <string name="send_output_to">Send output to:</string>
+    <string name="separator">,</string>
+    <string name="row_separator">\n</string>
+    <string name="raw_values">Measurements (Timestamp, Value)</string>
+    <string name="cameraPermissionRequired">Camera permission is required for this application to work.</string>
+    <string name="noFlashWarning">Measurement without flash is less reliable.</string>
+    <string name="new_measurement">New Measurement</string>
+    <string name="export_result">Export Result</string>
+    <string name="export_details">Export Details</string>
+    <string name="dateFormat">yyyy-MM-dd\'T\'HH:mm:ssZZZZZ</string>
+    <string name="dateFormatGranular">yyyy-MM-dd\'T\'HH:mm:ss.SSSZZZZZ</string>
+    <string name="camera_not_found">Camera not available.</string>
+    <plurals name="measurement_output_template" translatable="false">
+        <item quantity="zero">Pulse: %2.1f (%d cycle in %2.1f seconds)</item>
+        <item quantity="one">Pulse: %2.1f (%d cycle in %2.1f seconds)</item>
+        <item quantity="other">Pulse: %2.1f (%d cycles in %2.1f seconds)</item>
+    </plurals>
 </resources>

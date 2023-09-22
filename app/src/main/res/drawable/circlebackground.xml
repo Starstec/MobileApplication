@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF0000" /> <!-- Ganti dengan warna latar belakang lingkaran -->
+            <corners android:radius="50dp" /> <!-- Set radius setengah dari lebar atau tinggi untuk membentuk lingkaran -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" /> <!-- Warna transparan -->
+            <corners android:radius="50dp" /> <!-- Set radius setengah dari lebar atau tinggi untuk membentuk lingkaran -->
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="4dp" /> <!-- Atur padding untuk efek shadow -->
+            <stroke
+                android:width="1dp"
+                android:color="#33000000" /> <!-- Warna dan ketebalan stroke untuk efek shadow -->
+        </shape>
+    </item>
+</layer-list>

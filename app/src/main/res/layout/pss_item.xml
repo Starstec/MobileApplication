@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1: How physically tense or relaxed do you feel after the match?"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins" />
+
+        <RadioGroup
+            android:id="@+id/answerGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/answer1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very tense"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins" />
+
+            <RadioButton
+                android:id="@+id/answer1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Somewhat tense"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins" />
+
+            <RadioButton
+                android:id="@+id/answer1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neutral"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins" />
+
+            <RadioButton
+                android:id="@+id/answer1d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Somewhat relaxed"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins" />
+
+            <RadioButton
+                android:id="@+id/answer1e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Very relaxed"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

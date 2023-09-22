@@ -1,0 +1,8 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/circlebackground"
+        android:duration="500" /> <!-- Waktu setengah detik (500 milidetik) -->
+    <item
+        android:drawable="@android:color/transparent"
+        android:duration="500" /> <!-- Waktu setengah detik (500 milidetik) -->
+</animation-list>
